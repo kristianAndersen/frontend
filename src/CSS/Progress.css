@@ -1,0 +1,39 @@
+.progresswrap {
+    width: 100%;
+    padding: 1rem;
+}
+
+.progress_start_end {
+    line-height: 0.9rem;;
+    padding-bottom: 0.5rem;;
+    font-size: calc(0.4rem + (26 - 14) * ((100vw - 30rem) / (1600 - 300)));
+}
+
+.stardate {
+    text-align: center;
+    float: left;
+}
+
+.enddate {
+    text-align: center;
+    float: right;
+}
+
+.progress {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 0.1rem solid rgba(var( --lightpetrolium),1);
+   
+}
+
+.progressbar {
+   width: -22%;
+    padding: 0.2rem;
+    background-color:rgba(var( --turquoise),1);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

@@ -1,0 +1,80 @@
+
+
+.program {
+ position: relative;
+ display:block;
+ overflow: hidden;
+ min-height: 9.2rem;
+ padding:0.3rem;
+ z-index: 1;
+ background-color: rgba(var(--darkgreyblue),0.9);
+
+ margin: 0 auto;
+ width:100%;
+ box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+ border-radius: var(--radius);
+ text-align:center
+}
+.programhead{
+    position: relative;
+    display: block;
+    width:100%;
+    text-align: left;
+    color:rgba(var(--white),0.9)
+}
+
+.programhead h5{
+    padding: 0.2rem;;
+    padding-left: 1rem;
+    margin-block-start: .2rem;
+    margin-block-end: 0em;
+}
+
+.completeicon{
+    margin-top: .2rem;
+    position: relative;
+    display: block;
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: rgba(var(--lightpetrolium),0.9);
+    text-align: center;
+    line-height: 2rem;
+    color: rgba(var(--white),0.9);
+    font-weight: bolder;
+    display: none;
+}
+
+.failicon{
+    margin-top: .2rem;
+    position: relative;
+    display: block;
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color:var(--fail);
+    text-align: center;
+    line-height: 1.8rem;
+    color: rgba(var(--white),0.9);
+    font-weight: bolder;
+    display: none;
+
+}
+.Divider{
+    width:calc(100% + 3rem);
+    margin-left: -1.5rem;
+
+    padding-bottom: 0.5rem;
+    height: 0.1rem;
+    border-top: 0.1rem solid rgba(var( --petrolium),1);
+    text-align: center;
+   
+}
+.tri{
+    position: relative;
+    display: block;
+    transform: rotate(0deg);
+    color: rgba(var( --petrolium),1);
+}

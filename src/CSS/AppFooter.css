@@ -1,0 +1,8 @@
+footer{
+    position: fixed;
+    width: 100%;
+    height: 2vh;
+    background-color: var( --mediumdarkgrey);
+    left: 0;
+    bottom: 0;
+}

@@ -1,0 +1,63 @@
+
+.workoutheading{
+    position: relative;
+  display:block;
+    width: 100%;
+    color: rgba(var(--white),0.9);
+       padding-bottom:0rem;
+       padding-top: 0.2rem;
+  }
+  
+  .workoutheading p{
+   width:25%;
+    float:left;
+     padding-bottom :0.5rem;
+     position: relative;
+    display:block;
+  }
+  
+  .detail{
+    position: relative;
+    display:block;
+    width: 100%;
+    background:#333;
+      padding-bottom:0.2rem;
+      
+  }
+  
+
+  .detail input[type="text" i] {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+  .detail input{
+    width:25%;
+     float:left;
+    padding-top:0.2rem;
+    padding-bottom:0.2rem;
+    border: none;
+    text-align: center;
+    color: rgba(var(--white),0.9);
+    left: 0;
+    right: 0;
+   }
+   .detail .exercise{
+  width: 25%;
+}
+
+   .excerciseDetail{
+    padding: 0.5rem;
+    margin:0.5rem;
+    color:rgba(var(--white), 0.9);
+    background-color: rgba(var(--lightpetrolium),0.2);
+    border-radius: var(--radius);
+    pointer-events: none;
+    display: none;
+  }
+   .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+header{
+    position: relative;
+    display: block;
+    z-index: 2;
+    width:100%;
+    padding: 1rem;
+  /* background-color: rgba(var(--darkgreyblue),0.8);*/
+background-color: transparent;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color:rgba(var(--turquoise),1);
+    border-bottom: 0.5rem solid var( --mediumdarkgrey);
+}
+h1{
+    font-family: 'Megrim', cursive;
+}

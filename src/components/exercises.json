@@ -1,0 +1,285 @@
+
+{
+    "exercises": [
+
+        {
+            "id":"1",
+            "name":"Dumbell front raises",
+            "description": "buff Shoulder Muscles",
+            "musclegroup":["Deltoid,group[]"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"2",
+            "name":"Seated/standing military press",
+            "description": "buff Shoulder Muscles",
+            "musclegroup":["Deltoid,group[]"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"3",
+            "name":"Concentration curls",
+            "description": "big guns",
+            "musclegroup":["Biceps,group['Brachialis','longhead','shorthead']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"4",
+            "name":"Barbell curls",
+            "description": "big guns",
+            "musclegroup":["Biceps,group['Brachialis','longhead','shorthead']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"5",
+            "name":"Chin ups",
+            "description": "big guns",
+            "musclegroup":["Biceps,group['Brachialis','longhead','shorthead']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"5",
+            "name":"Barbell bench press",
+            "description": "big chest",
+            "musclegroup":["Chest,group['Pectorials']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"6",
+            "name":"Flat dumbbell fly",
+            "description": "big chest",
+            "musclegroup":["Chest,group['Pectorials']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"7",
+            "name":"Weighted dips",
+            "description": "big chest",
+            "musclegroup":["Chest,group['Pectorials']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"8",
+            "name":"Farmer’s walk",
+            "description": "be the popeye you always wanted",
+            "musclegroup":["Forearms,group['Brachioradialis', 'Flexor carpi', 'Extensor carpi']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"9",
+            "name":"Towel pull up",
+            "description": "be the popeye you always wanted",
+            "musclegroup":["Forearms,group['Brachioradialis', 'Flexor carpi', 'Extensor carpi']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"10",
+            "name":"Russian twists",
+            "description": "be the popeye you always wanted",
+            "musclegroup":["Side abs,group['obliques']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"11",
+            "name":"Wood chop",
+            "description": "be the popeye you always wanted",
+            "musclegroup":["Side abs,group['external obliques']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"11",
+            "name":"Wood chop",
+            "description": "be the popeye you always wanted",
+            "musclegroup":["Side abs,group['external obliques']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"12",
+            "name":"Spiderman plank crunch",
+            "description": "sixpac summer comming up",
+            "musclegroup":["Abdominals,group['rectus abdominis','transversus abdominis','internal oblique']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"13",
+            "name":"Mountain climbers",
+            "description": "sixpac summer comming up",
+            "musclegroup":["Abdominals,group['rectus abdominis','transversus abdominis','internal oblique']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"14",
+            "name":"Medicine ball v-up",
+            "description": "sixpac summer comming up",
+            "musclegroup":["Abdominals,group['rectus abdominis','transversus abdominis','internal oblique']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"15",
+            "name":"Barbell full squat",
+            "description": "bulky thigh",
+            "musclegroup":["Quadriceps,group['rectus femoris','vastus lateralis','vastus medius', 'vastus intermedius']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"16",
+            "name":"Leg extension",
+            "description": "bulky thigh",
+            "musclegroup":["Quadriceps,group['rectus femoris','vastus lateralis','vastus medius', 'vastus intermedius']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"17",
+            "name":"Leg press",
+            "description": "bulky thigh",
+            "musclegroup":["Quadriceps,group['rectus femoris','vastus lateralis','vastus medius', 'vastus intermedius']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"18",
+            "name":"Ta raises",
+            "description": "nice shins",
+            "musclegroup":["Tibialis anterior,group['rectus femoris','vastus lateralis','vastus medius', 'vastus intermedius']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"19",
+            "name":"barbell Shrugs",
+            "description": "broard back yo",
+            "musclegroup":["upperback,group['trapezius']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"20",
+            "name":"Bent-over Lateral raise",
+            "description": "broard back yo",
+            "musclegroup":["trapezius,group[]"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"21",
+            "name":"shoulder rotations",
+            "description": "broard back yo",
+            "musclegroup":["Infraspinatus,group[]"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"22",
+            "name":"Triceps dips",
+            "description": "big arms rules",
+            "musclegroup":["Triceps,group['medial head','lateral head','long head']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"22",
+            "name":"skull chrusers",
+            "description": "big arms rules",
+            "musclegroup":["Triceps,group['medial head','lateral head','long head']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"23",
+            "name":"overhead dumbbell extention",
+            "description": "big arms rules",
+            "musclegroup":["Triceps,group['medial head','lateral head','long head']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"22",
+            "name":"Lat pull-Downs",
+            "description": "Great back",
+            "musclegroup":["latissimus dorsi,group[]"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"23",
+            "name":"seated cable row",
+            "description": "Great back",
+            "musclegroup":["latissimus dorsi,group[]"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"24",
+            "name":"Kettlebell swings",
+            "description": "You can crack a walnut with that",
+            "musclegroup":["Gluteus maximus,group[]"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"25",
+            "name":"barbell hip thrust",
+            "description": "You can crack a walnut with that",
+            "musclegroup":["Gluteus maximus,group[]"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"26",
+            "name":"Stiff-legged deadlift",
+            "description": "You can crack a walnut with that",
+            "musclegroup":["Gluteus maximus,group[]"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"27",
+            "name":"Russian twists",
+            "description": "Rember lowerback day",
+            "musclegroup":["Thoracolumbar farcia,group[]"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"28",
+            "name":"wood chop",
+            "description": "Rember lowerback day",
+            "musclegroup":["Thoracolumbar farcia,group[]"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"28",
+            "name":"Lying leg curls",
+            "description": "Never skip leg day",
+            "musclegroup":["Hamstring,group['biceps femoris', 'semitnsinosus', 'semimembranosus']"],
+            "image": null,
+            "video": null
+        },
+        {
+            "id":"29",
+            "name":"romanian deadlift",
+            "description": "Never skip leg day",
+            "musclegroup":["Hamstring,group['biceps femoris', 'semitnsinosus', 'semimembranosus']"],
+            "image": null,
+            "video": null
+        }
+        ]} 

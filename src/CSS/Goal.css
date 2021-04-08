@@ -1,0 +1,61 @@
+
+.goalWrap {
+    position: relative;
+    display:block;
+    overflow: hidden;
+
+    padding:0.3rem;
+    z-index: 1;
+   
+    margin: 0 auto;
+    font-size: calc(0.2rem + (26 - 16) * ((100vw - 30rem) / (1600 - 300)));
+    width:100%;
+    text-align:center
+   }
+.gID{
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.goalCTA {
+    position: relative;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    
+    background: rgb(var(--petrolium));
+    width: auto;
+    border: 0;
+    padding: 0.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    color: #FFFFFF;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: var(--radius);
+  
+    white-space: nowrap;
+    height: 1.7rem;
+}
+.gwDP2::before {
+    content: 'end date';
+    font-size: calc(0.2rem + (26 - 16) * ((100vw - 30rem) / (1600 - 300)));
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 5rem;
+    top: -0.5rem;
+    pointer-events: none;
+  }
+  .gwDP1::before {
+    content: 'start date';
+    font-size: calc(0.2rem + (26 - 16) * ((100vw - 30rem) / (1600 - 300)));
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 5rem;
+    top: -0.5rem;
+    pointer-events: none;
+  }
+ 

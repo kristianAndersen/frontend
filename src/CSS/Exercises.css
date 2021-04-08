@@ -1,0 +1,93 @@
+.ExercisesWrap {
+    position: relative;
+    display: block;
+    z-index: 1;
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: var(--radius);
+    overflow: hidden;
+    height: 80vh;
+  }
+  .exList{
+    position: relative;
+    display: inline;
+
+    width: 32%;
+    overflow-y: scroll;
+    height: 52vh;
+    float: left;
+    scrollbar-width: none; 
+  }
+  .exList::-webkit-scrollbar {
+    display: none; /* webkit browsers implementation */
+
+  }
+/*viewBox="0 0 500 104"*/
+  .exFigure{
+    display: block;
+    min-height: 40rem;
+    width:65%;
+    float: right;
+  }
+  .exFigure svg{
+    height: 100%;
+    width: 100%;
+  }
+  .exCTA {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    float: right;
+    background: rgb(var(--petrolium));
+    width: auto;
+    border: 0;
+    margin-left: 0.3rem;
+    padding: 0.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    color: #FFFFFF;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: var(--radius);
+    font-size: calc(0.2rem + (26 - 16) * ((100vw - 30rem) / (1600 - 300)));
+    white-space: nowrap;
+    height: 1.7rem;
+}
+.exDelete{
+  margin-right: 0.4rem;
+  background: rgb(var(--fail));
+}
+.exCTA:hover,
+.exCTA:active,
+.exCTA:focus {
+  background: rgb(var(--lightpetrolium));
+}
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  @media (min-width: 768px) {
+    .ExercisesWrap{
+        max-width: 80%;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 992px) { 
+    .ExercisesWrap{
+        max-width: 95%;
+        padding: 1rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .ExercisesWrap{
+        max-width: 95%;
+        padding: 1rem;
+    }
+}
+

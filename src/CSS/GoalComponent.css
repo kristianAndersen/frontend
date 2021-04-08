@@ -1,0 +1,49 @@
+.GCWrap{
+    position: relative;
+    display:block;
+    overflow: hidden;
+    padding:0.3rem;
+    z-index: 1;
+    background-color: rgba(var(--darkgreyblue),0.9);
+    color: rgba(var(--white),0.9);
+    margin: 0 auto;
+    width:100%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: var(--radius);
+    text-align:center
+}
+
+
+.completeicon{
+    margin-top: .2rem;
+    position: relative;
+    display: block;
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: rgba(var(--lightpetrolium),0.9);
+    text-align: center;
+    line-height: 2rem;
+    color: rgba(var(--white),0.9);
+    font-weight: bolder;
+    display: block;
+}
+
+.failicon{
+    margin-top: .2rem;
+    position: relative;
+    display: block;
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color:var(--fail);
+    text-align: center;
+    line-height: 1.8rem;
+    color: rgba(var(--white),0.9);
+    font-weight: bolder;
+    display: none;
+
+}
+
